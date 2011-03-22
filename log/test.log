@@ -1,0 +1,48 @@
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Processing by ProductsController#create as HTML
+  Parameters: {"product"=>{"price"=>#<BigDecimal:1860208,'0.999E1',8(8)>, "created_at"=>Tue Mar 22 14:45:17 UTC 2011, "title"=>"MyString", "image_url"=>"MyString", "updated_at"=>Tue Mar 22 14:45:17 UTC 2011, "id"=>980190962, "description"=>"MyText"}}
+WARNING: Can't mass-assign protected attributes: id
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "products" ("image_url", "updated_at", "created_at", "title", "description", "price") VALUES ('MyString', '2011-03-22 14:45:17.000000', '2011-03-22 14:45:17.000000', 'MyString', 'MyText', 9.99)
+Redirected to http://test.host/products/980190963
+Completed 302 Found in 65ms
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT COUNT(*) FROM "products"[0m
+  Processing by ProductsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "products" WHERE "products"."id" = 980190962[0m
+Redirected to http://test.host/products
+Completed 302 Found in 2ms
+  [1m[35mSQL (0.1ms)[0m  SELECT COUNT(*) FROM "products"
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1[0m
+  Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1
+Rendered products/_form.html.erb (6.4ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 3.1ms)
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1[0m
+  Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1[0m
+  Processing by ProductsController#new as HTML
+Rendered products/_form.html.erb (3.3ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1
+  Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1
+  Processing by ProductsController#update as HTML
+  Parameters: {"id"=>"980190962", "product"=>{"price"=>#<BigDecimal:2640c60,'0.999E1',8(8)>, "created_at"=>Tue Mar 22 14:45:17 UTC 2011, "title"=>"MyString", "image_url"=>"MyString", "updated_at"=>Tue Mar 22 14:45:17 UTC 2011, "id"=>980190962, "description"=>"MyText"}}
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 980190962 LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes: id
+Redirected to http://test.host/products/980190962
+Completed 302 Found in 3ms
