@@ -1,7 +1,8 @@
-<h1>Store#index</h1>
+<h1>Store</h1>
 <% @products.each do |product| %>
   <div class="entry">
-    <%= image_tag(product.image_url) %>
-    <h3><%= product.title %></h3>
+	<h3><%= product.title %></h3>
+	<h5><%= product.description %></h5>
+    	<%= image_tag(product.image_url, :size => "50x50") %>
   </div>
 <% end %>
