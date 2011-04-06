@@ -54,3 +54,38 @@ div.field, div.actions {
   font-size: 12px;
   list-style: square;
 }
+
+/* Styles for main page */
+#banner {
+background: #99ccff;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 2px solid;
+font: small-caps 40px/40px "Times New Roman", serif;
+color: #003366;
+text-align: center;
+}
+#banner img {
+float: left;
+}
+#columns {
+background: #99ccff;
+}
+#main {
+margin-left: 17em;
+padding-top: 4ex;
+padding-left: 2em;
+background: #e0ffff;
+}
+#side {
+float: left;
+padding-top: 1em;
+padding-left: 1em;
+padding-bottom: 1em;
+width: 16em;
+background: #99ccff;
+}
+#side a {
+color: #6600FF;
+font-size: small;
+}

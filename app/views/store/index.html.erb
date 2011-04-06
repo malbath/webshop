@@ -4,5 +4,6 @@
 	<h3><%= product.title %></h3>
 	<h5><%= product.description %></h5>
     	<%= image_tag(product.image_url, :size => "50x50") %>
+	<%= button_to 'Add to Cart', line_items_path(:product_id => product) %>
   </div>
 <% end %>
