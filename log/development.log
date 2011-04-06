@@ -1340,3 +1340,736 @@ Started GET "/" for 127.0.0.1 at Tue Apr 05 17:53:53 +0200 2011
   [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
 Rendered store/index.html.erb (4.1ms)
 Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/store" for 127.0.0.1 at Tue Apr 05 19:54:18 +0200 2011
+
+ActionController::RoutingError (No route matches "/store"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 19:54:26 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (2.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb (4.3ms)
+Completed 200 OK in 22ms (Views: 13.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/store" for 127.0.0.1 at Tue Apr 05 20:15:06 +0200 2011
+
+ActionController::RoutingError (No route matches "/store"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/store" for 127.0.0.1 at Tue Apr 05 20:16:04 +0200 2011
+
+ActionController::RoutingError (No route matches "/store"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stores" for 127.0.0.1 at Tue Apr 05 20:16:07 +0200 2011
+
+ActionController::RoutingError (No route matches "/stores"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/s" for 127.0.0.1 at Tue Apr 05 20:17:33 +0200 2011
+
+ActionController::RoutingError (No route matches "/s"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:17:36 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb (4.2ms)
+Completed 200 OK in 17ms (Views: 11.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:21:15 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb (5.8ms)
+Completed 200 OK in 82ms (Views: 14.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:28:37 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 20ms (Views: 14.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:28:37 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Apr 05 20:28:37 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Apr 05 20:28:37 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:33:01 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 21ms (Views: 14.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/images/logo.gif" for 127.0.0.1 at Tue Apr 05 20:33:01 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/images/logo.gif"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/images/logo.gif" for 127.0.0.1 at Tue Apr 05 20:33:02 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/images/logo.gif"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:34:06 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 15.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images/images/logo.gif" for 127.0.0.1 at Tue Apr 05 20:34:06 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/images/logo.gif"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/images/logo.gif" for 127.0.0.1 at Tue Apr 05 20:34:06 +0200 2011
+
+ActionController::RoutingError (No route matches "/images/images/logo.gif"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:34:44 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 19ms (Views: 13.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:38:58 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 72ms (Views: 14.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:38:58 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:39:25 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:39:25 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:41:56 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 20ms (Views: 14.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:41:56 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:42:47 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:42:47 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:43:09 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:43:09 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:43:12 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 67ms (Views: 13.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:43:12 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:43:37 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 13.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:43:37 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:45:38 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 19ms (Views: 13.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:45:38 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:46:45 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 20ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:46:45 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:47:44 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 14.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:47:44 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:50:27 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+ERROR: compiling _app_views_layouts_application_html_erb__100506181_20012790_0 RAISED compile error
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+<%= @page_title || "Elektro Hed...
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+<div id="side" >
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+<a href="http://www...." >Home</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+<a href="http://www..../faq" >Questions</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:19: syntax error, unexpected '<'
+<a href="http://www..../news" >News</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:20: syntax error, unexpected '<'
+<a href="http://www..../contact" >Contact</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+</div>
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:24: unknown regexp options - dv
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:24: unmatched ): /div>
+<div id="main" >
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+</div>
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:26: unknown regexp options - bdy
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+</html>
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:27: unterminated string meets end of file
+Function body:           def _app_views_layouts_application_html_erb__100506181_20012790_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html>
+<head>
+<title>Elektro Hediger Online Store</title>
+');@output_buffer.append= ( stylesheet_link_tag "scaffold" );@output_buffer.safe_concat('
+');@output_buffer.append= ( stylesheet_link_tag "depot", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.append= ( javascript_include_tag :defaults );@output_buffer.safe_concat('
+');@output_buffer.append= ( csrf_meta_tag );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</head>
+<body id="store" >
+<div id="banner" >
+');@output_buffer.append= ( image_tag("logo.gif", :size =>"50x50")>
+<%= @page_title || "Elektro Hediger Online Store" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>
+<div id="columns" >
+<div id="side" >
+<a href="http://www...." >Home</a><br />
+<a href="http://www..../faq" >Questions</a><br />
+<a href="http://www..../news" >News</a><br />
+<a href="http://www..../contact" >Contact</a><br />
+</div>
+<div id="main" >
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>
+</div>
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:27:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_view/render/layouts.rb:80:in `_render_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:62:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:435:in `_run__849683412__process_action__199225275__callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/application.rb:77:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/commands/server.rb:65:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/commands.rb:30
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/commands.rb:27:in `tap'
+/opt/local/lib/ruby/gems/1.8/gems/railties-3.0.4/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered store/index.html.erb within layouts/application (26.0ms)
+Completed   in 41ms
+
+ActionView::Template::Error (compile error
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:13: syntax error, unexpected '<'
+<%= @page_title || "Elektro Hed...
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+<div id="side" >
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:17: syntax error, unexpected '<'
+<a href="http://www...." >Home</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:18: syntax error, unexpected '<'
+<a href="http://www..../faq" >Questions</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:19: syntax error, unexpected '<'
+<a href="http://www..../news" >News</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:20: syntax error, unexpected '<'
+<a href="http://www..../contact" >Contact</a><br />
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:21: syntax error, unexpected '<'
+</div>
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:24: unknown regexp options - dv
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:24: unmatched ): /div>
+<div id="main" >
+');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:25: syntax error, unexpected '<'
+</div>
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:26: unknown regexp options - bdy
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:27: syntax error, unexpected '<'
+</html>
+ ^
+/Users/mariusalbath/Documents/HSZ/2010:11/Webprogrammieren/webshop/app/views/layouts/application.html.erb:27: unterminated string meets end of file):
+    10: <body id="store" >
+    11: <div id="banner" >
+    12: <%= image_tag("logo.gif", :size =>"50x50")>
+    13: <%= @page_title || "Elektro Hediger Online Store" %>
+    14: </div>
+    15: <div id="columns" >
+    16: <div id="side" >
+  app/views/layouts/application.html.erb:27:in `compile'
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:50:48 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 21ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:50:48 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:51:24 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 20ms (Views: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:51:24 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:51:48 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 21ms (Views: 14.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:51:48 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:52:24 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:52:24 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:57:34 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:57:34 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 20:58:21 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 13.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 20:58:21 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 21:00:56 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 21:00:56 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 21:01:42 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 21:01:42 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 21:02:47 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 20ms (Views: 13.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 21:02:47 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 21:03:08 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 21ms (Views: 14.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 21:03:08 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 21:03:42 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 21:03:42 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Apr 05 21:07:48 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 70ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Tue Apr 05 21:07:49 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Apr 06 21:34:06 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+Rendered store/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Wed Apr 06 21:34:06 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Apr 06 21:39:14 +0200 2011
+  Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+Rendered store/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 19ms (Views: 13.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/depot.css" for 127.0.0.1 at Wed Apr 06 21:39:14 +0200 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/depot.css"):
+  
+
+Rendered /opt/local/lib/ruby/gems/1.8/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)

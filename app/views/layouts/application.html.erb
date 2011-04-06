@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Elektro Hediger Online Store</title>
+<%= stylesheet_link_tag "scaffold" %>
+<%= stylesheet_link_tag "depot", :media => "all" %>
+<%= javascript_include_tag :defaults %>
+<%= csrf_meta_tag %>
+</head>
+<body id="store" >
+<div id="banner" >
+<%= image_tag("elektro.gif", :size =>"100x50") %>
+<%= image_tag("logo.gif", :size =>"100x50") %>
+<%= @page_title || "Elektro Hediger Online Store" %>
+</div>
+<div id="columns" >
+<div id="side" >
+<a href="http://www...." >Home</a><br />
+<a href="http://www..../faq" >Questions</a><br />
+<a href="http://www..../news" >News</a><br />
+<a href="http://www..../contact" >Contact</a><br />
+</div>
+<div id="main" >
+<%= yield %>
+</div>
+</div>
+</body>
+</html>
